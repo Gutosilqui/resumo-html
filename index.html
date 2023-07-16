@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="favicon.ico.ico" type="image/x-icon">
+    <title>Um pouco de tudo</title>
+    <body style="background-color: aqua;">
+        
+    </body>
+</head>
+<body>
+    <h1>Tudo que foi passado</h1>
+        <p>Ate o presente momento foi passado a tag &lt;hr&gt;.</p>
+        <hr>
+        <p>Que deixa uma linha de ponta a ponta no site.</p>
+        <p>Você aprendeu também <br> a que<br>bra de paragrafos com a tag &lt;br&gt;.</p>
+    <h2>Aqui vai alguns simbolos e imagens</h2>
+    <h3>Simbolos</h3>
+        <p>
+        &reg;
+        &copy;
+        &trade;
+        &euro;
+        &pound;
+        &yen;
+        &cent;
+        &Delta;
+        &delta;
+        &uparrow;
+        &uarr;
+        &#x1F60A
+        </p>
+    <h3>Imagens</h3>
+        <p>Imagens da mesma pasta</p>
+        <img src="html200.png" alt="Logo HTML5">
+        <p>Imagens dentro de pastas</p>
+        <img src="imagens/css170.webp" alt="Logo CSS3">
+        <p>Imagens externas</p>
+        <img src="https://cdn.pixabay.com/photo/2018/07/31/22/08/lion-3576045_960_720.jpg" alt="Leão">
+    <h2>Colocar um favicon em seu site</h2>
+        <p>Usando a tag &lt;link:favicon&gt; na area head do seu site acima do seu title, pode adicionar uma imagem .ico para ser usada como icone do seu site</p>
+    <h2>Hierarquia de titulos</h2>
+        <p>Seus titulos podem ir de h1 ate h6, sendo h1 o maior nivel e o h6 sendo o menor.</p>
+        <p>É podendo usar a tag &lt;lorem&gt; para ser um gerador de blablabla.</p>
+        <p>EX:Lorem ipsum dolor, sit amet consectetur adipisicing elit. Officiis, laudantium deleniti dolore veniam, unde sed totam distinctio earum nisi repellat provident, nostrum quae illum reiciendis aspernatur nesciunt veritatis ex nobis.</p>
+    <h2>HTML uma liguagem semántica</h2>
+        <p>O HTML5 se tornou mais uma linguagem semántica doque de significado.</p>
+        <p>EX: Eu moro na <address><u>rua ruibarbosa, 56 - Santana</u></address></p>
+        <p>Um termo em <strong>negrito</strong>(semantico).</p>
+        <p>Um termo que dar <em>enfáse</em>(semantico).</p>
+        <p>Um texto <mark>marcado</mark>.</p>
+        <p>Um texto <big>Grande</big> é um <small>Pequeno</small></p>
+        <p>Podemos marca <del>um texto como excluido</del> para indicar que ele deve ser lido mais não considerado.</p>
+        <p>Podemos marcar <ins>um texto como inserido</ins> para dar uma enfase para indicar que ele foi adicionado depois. </p>
+        <p>Existe tambem o <u>sublinhado</u> com a tag &lt;u&gt;.(não semantica)</p>
+        <p>Termos sobrescritos x<sup>20</sup> e o subescrito H<sub>2</sub>O.</p>
+        <p>O comando <code>document.getElementsByid('teste')</code> é escrito em linguagem Javascript.</p>
+            <pre>
+                <code>
+                num = int(input('Digite um número'))
+                if num % 2 == 0;
+                    print(f'O número {num} é PAR')
+                else:
+                    print(f'O número{num} é ÌMPAR')
+                print('Fim do programa')
+                </code>
+            </pre>
+        <p>Sitações <q>Simples</q></p>
+        <p>Sitação completa</p>
+        <p>EX:Segundo Gustavo Guanabara no seu curso de HTML5 e CSS3:</p>   
+            <blockquote cite="https://www.youtube.com/watch?v=4ynvsrkamt8&list=PLHz_AreHm4dkZ9-atkcmcBaMZdmLHft8n&index=24">A diferença entre ementos inline e um bloco de texto e importando. Os elementos HTML neste capítulo descrevem os blocos de texto. </blockquote>
+        <p>Abreviações <abbr title="HyperText Markup Language">HTML</abbr> e <abbr title="Cascading Style Sheets">CSS</abbr>.</p>
+        <p>Texto <bdo dir="rtl">Invertido</bdo>.</p>
+    <h2>Listas</h2>
+    <h3>Listas ordenadas</h3>
+        <ol type="1" start="10"><!--1 / A or a / I or i-->
+            <li>Acordar</li>
+            <li>Estudar</li>
+            <li>tomar café</li>
+            <li>Trabalhar</li>
+        </ol>
+    <h3>Listas não ordenadas</h3>
+        <ul type="square"><!--square / disc / circle-->
+            <li>pão</li>
+            <li>leite
+            <li>tomate</li>
+        </ul>
+    <h3>Meus favoritos</h3>
+        <ol>
+            <li>PlayStation</li>
+            <ul>
+                <li>God of War</li>
+                <ul>
+                    <li>God of War:Ascension</li>
+                    <li>God of War:Chains of Olympus</li>
+                    <li>God of War:Ghost of Sparta</li>
+                </ul>
+            </ul>
+            <li>Nintentdo</li>
+                <ul>
+                <li>The Legends of Zelda</li>
+                    <ul>
+                        <li>The Legends of Zelda:Ocarina of time</li>
+                        <li>The Legends of Zelda:Majoras Mask</li>
+                        <li>The Legends of Zelda:Breath of the Wild</li>
+                    </ul>
+                </ul>
+        </ol>
+    <h3>Lista de Definição</h3>
+        <dl>
+        <dt>HTML</dt>
+        <dd>Linguagem de Marcação para a criação de conteudo de um site.</dd>
+        <dt>CSS</dt>
+        <dd>Linguagem de marcação para a criação de disigner</dd>
+        <dt>JavaScript</dt>
+        <dd>Linguagem de programção para a cração de interatividade de um site</dd>
+        </dl>
+    <h2>Links</h2>
+        <p><a href="pag2.html">Minha outra pagina</a></p>
+        <p><a href="./estudos/pag3.html">Ir para minha pagina de Estudos.</a></p>
+</body>
+</html>
